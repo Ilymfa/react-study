@@ -1,3 +1,5 @@
+//生命周期
+
 import React,{Component} from 'react';
 
 class App extends Component {
