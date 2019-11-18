@@ -1,0 +1,42 @@
+.todo-list-box{
+    width: 400px;
+    height: 500px;
+    background: #fff;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    margin: 100px auto;
+}
+.todo-header{
+    height: 60px;
+    line-height: 60px;
+    padding: 0 15px;
+    border-bottom: 1px solid #ccc;
+}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+button{
+    float: right;
+    padding: 5px 15px;
+    margin-top: 15px;
+}
+.todo-list{
+    padding: 0 15px;
+}
+.todo-list-item{
+    padding-right:50px;
+    position: relative
+}
+.todo-list-item p{
+    padding: 15px 0;
+    margin:0
+}
+.todo-list-item button{
+    margin-top: 0;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0 ,-50%)
+}
