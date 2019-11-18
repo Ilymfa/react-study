@@ -1,3 +1,4 @@
+//子组件向父组件通信
 import React,{Component} from 'react'
 import '../App.css'
 
