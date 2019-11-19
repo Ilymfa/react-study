@@ -18,8 +18,14 @@
   .loading-body{
     position: absolute;
     text-align: center;
-    left: 0;
-    right: 0;
+    left: 50%;
     top: 50%;
-    color: #fff
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 100px;
+    background: #fff;
+    padding: 20px;
+  }
+  .inp-txt{
+    height: 22px;
   }

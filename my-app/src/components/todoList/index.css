@@ -1,3 +1,14 @@
+.mt15{margin-top: 15px}
+.ml10{margin-left: 10px}
+.mr10{margin-right: 10px}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+
+
 .todo-list-box{
     width: 400px;
     height: 500px;
@@ -11,16 +22,9 @@
     padding: 0 15px;
     border-bottom: 1px solid #ccc;
 }
-.right{
-    float: right;
-}
-.left{
-    float: left;
-}
+
 button{
-    float: right;
     padding: 5px 15px;
-    margin-top: 15px;
 }
 .todo-list{
     padding: 0 15px;
