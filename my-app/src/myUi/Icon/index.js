@@ -12,7 +12,7 @@ class Icon extends Component {
      render(){
          let {
              name,
-             reset
+             ...reset
          } = this.props
          return(
              <span {...reset} className={`icon iconfont icon-${name}`}></span>

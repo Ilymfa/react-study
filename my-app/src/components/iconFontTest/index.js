@@ -8,7 +8,7 @@ class IconFont extends Component {
         return (
             <div>
                 <span className="icon iconfont icon-pic"></span>
-                <Icon name="delete" />
+                <Icon name="delete" style={{color:'orange'}} />
             </div>
         )
     }
