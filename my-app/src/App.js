@@ -6,8 +6,10 @@ import Button from './myUi/Button'
 function App() {
   return (
     <div className="App">
-      <Button type="primary"/>
-      <Button />
+      <Button type="primary">Primary</Button>
+      <Button>Default</Button>
+      <Button  icon="pic">Icon</Button>
+      <Button onClick={() => {alert('click')}}>click</Button>
     </div>
   );
 }
